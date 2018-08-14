@@ -1,0 +1,10 @@
+service: test-service
+app: test-serverless-dev
+tenant: wurlit
+provider:
+  name: aws
+  runtime: nodejs8.10
+
+functions:
+  hello:
+    handler: handler.hello
